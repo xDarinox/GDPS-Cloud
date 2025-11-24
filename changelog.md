@@ -1,1 +1,1 @@
-# ZDarinox GDPS Changelog
+## GDPS Cloud Hosting Changes

@@ -4,7 +4,7 @@ const mainLayer = document.querySelector('body');
 const versionContent = document.getElementById('site_version');
 const data = fetch('https://api.github.com/repos/xDarinox/GDPS-Cloud/releases/latest')
 .then((response) => response.json())  
-.then((data) => versionContent.innerHTML = 'Версия: ' + data.tag_name || 'v1.0.0') 
+.then((data) => versionContent.innerHTML = 'Версия: ' + data.tag_name) 
 
 
 

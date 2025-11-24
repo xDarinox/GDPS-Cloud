@@ -31,7 +31,9 @@
             </span>
 
             <div class="sections-menu">
-                <a href="" class="select-header-node">Главная</a>
+                <a href="#main_section" class="select-header-node">Главная</a>
+                <span class="select-header-node-splitter">|</span>
+                <a href="" class="select-header-node">Изменения</a>
                 <span class="select-header-node-splitter">|</span>
                 <a href="#tarrifs" class="select-header-node">Тарифы</a>
                 <span class="select-header-node-splitter">|</span>
@@ -72,7 +74,7 @@
         $('createServerLayer').load('src/layers/createServerLayer.php');
     </script>
     <main>
-        <section class="section-1">
+        <section class="section-1" id='main_section'>
             <div class="state-title-main">
                 <img src="src/images/main/cloud.png" draggable="false" style="width: 15vh">
                 <h3 class="state-title-label">GDPS Cloud</h3>
@@ -303,6 +305,7 @@
                 <a href="" class="footer-link" target="_blank">Политика кондефициальности</a>
                 <a href="" class="footer-link" target="_blank">Контакты</a>
                 <a href="" class="footer-link" target="_blank">Наш блог</a>
+                <a href="changes.php" class="footer-link" target="_blank">Список изменений</a>
             </section>
           
         </footer>

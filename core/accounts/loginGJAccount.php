@@ -1,5 +1,5 @@
 <?php
-    require __DIR__ . '/../src/main/errorManager.php';
+    include __DIR__ . '/../src/main/errorManager.php';
     include __DIR__ . '/../src/main/DBConnect.php';
     include __DIR__ . '/../src/classes/CAccount.php';
     include __DIR__ . '/../src/classes/CUtils.php';
